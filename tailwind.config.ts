@@ -44,6 +44,10 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				'legal-gold': {
+					DEFAULT: 'hsl(var(--legal-gold))',
+					foreground: 'hsl(var(--legal-gold-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -62,6 +66,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-gradient)',
+				'accent-gradient': 'var(--accent-gradient)',
+				'section-gradient': 'var(--section-gradient)'
+			},
+			boxShadow: {
+				'glow': 'var(--glow-shadow)'
+			},
+			transitionTimingFunction: {
+				'elegant': 'var(--transition-elegant)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
