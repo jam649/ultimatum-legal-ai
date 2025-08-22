@@ -23,7 +23,7 @@ const HowItWorks = () => {
     },
     {
       icon: Download,
-      title: "Review & Deploy",
+      title: "Review & File",
       description: "Download professional-grade legal documents ready for filing or further attorney review.",
       step: "04"
     }
