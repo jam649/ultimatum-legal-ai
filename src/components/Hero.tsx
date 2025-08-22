@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Last Generation
-            <span className="block bg-gradient-to-r from-legal-gold to-accent bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-legal-gold to-accent bg-clip-text text-transparent leading-none pb-2">
               Legal
             </span>
           </h1>
