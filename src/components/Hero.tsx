@@ -40,13 +40,17 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button variant="hero" size="xl" className="group">
-              Get Started Today
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button variant="outline" size="xl" className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20">
-              Schedule a Demo
-            </Button>
+            <a href="mailto:contact@lastgenlegal.ai">
+              <Button variant="hero" size="xl" className="group">
+                Get Started Today
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
+            <a href="mailto:contact@lastgenlegal.ai">
+              <Button variant="outline" size="xl" className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20">
+                Schedule a Demo
+              </Button>
+            </a>
           </div>
 
           {/* Feature Icons */}
