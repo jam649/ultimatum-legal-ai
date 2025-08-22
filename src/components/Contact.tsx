@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-primary-foreground font-medium">Office</p>
-                    <p className="text-primary-foreground/80">New York, NY</p>
+                    <p className="text-primary-foreground/80">Washington, D.C.</p>
                   </div>
                 </div>
               </div>
