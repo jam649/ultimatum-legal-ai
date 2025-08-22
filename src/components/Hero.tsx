@@ -45,7 +45,7 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline" size="xl" className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/20">
-              Watch Demo
+              Schedule a Demo
             </Button>
           </div>
 
