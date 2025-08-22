@@ -27,13 +27,17 @@ const Contact = () => {
                   Experience the power of lawyer-trained AI. Upload your first document and see the difference.
                 </p>
                 <div className="space-y-4">
-                  <Button variant="hero" size="lg" className="w-full group">
-                    Begin Free Trial
-                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <Button variant="outline" size="lg" className="w-full bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
-                    Schedule a Demo
-                  </Button>
+                  <a href="mailto:contact@lastgenlegal.ai">
+                    <Button variant="hero" size="lg" className="w-full group">
+                      Begin Free Trial
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </a>
+                  <a href="mailto:contact@lastgenlegal.ai">
+                    <Button variant="outline" size="lg" className="w-full bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20">
+                      Schedule a Demo
+                    </Button>
+                  </a>
                 </div>
                 <p className="text-sm text-primary-foreground/60 mt-4 text-center">
                   No credit card required • 14-day free trial
